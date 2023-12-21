@@ -1,0 +1,48 @@
+---
+title: "JLDP_hydrology"
+format: html
+editor: visual
+---
+
+## Entering and plotting historic well data
+
+There is a lot of historic well data, but for scattered time periods and there is sparse rainfall data at this point
+
+```{r}
+
+```
+
+## Entering recent 2023 well depth data and rainfall data
+
+This data is interesting to look at because 2023 was a really wet year and there are distinguished bumps in well depth. It is difficult because data is from TNC and I am not sure actual well depth and if the data are barametrically compensated. Takes a bit of digging to figure out the anomolies.
+
+```{r}
+
+```
+
+## looking at weather station locations and difference in rainfall
+
+Try to visualize hotspots of rainfall based on the working weather stations. Can you read dendra data in directly from R?
+What other weather data from dendra could be variable across site and affect the well depth? Temperature, humidity soil moisture? Start to read in these other variables.
+
+```{r}
+
+```
+
+## Read in isotope data and do hydrograph seperation based on the data we have
+
+Try to look at the rainfall isotope data compared to stream isotope data. Also plot stream isotopes over time to see if they change when rainfall storms happen. Or look for a signal- rainfall changing x amount and see how big of a storm it is.
+Try plotting daily rainfall on x axis and isotope composition on y axis.
+```{r}
+
+```
+
+
+## Get into the nitty gritty
+
+Try multivariate statistics for looking at things like well lithology, well depth, topography distance from each other and other variables.
+
+```{r}
+
+```
+
