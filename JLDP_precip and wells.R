@@ -1,15 +1,11 @@
 library(ggplot2)
 library(dplyr)
-install.packages("plotly")
-install.packages("hrbrthemes")
+#install.packages("plotly")
+#install.packages("hrbrthemes")
 library(plotly)
 library(hrbrthemes)
-setwd("~/Well analysis")
 
-# Load dataset from drive (Rainfall and pressure transducers)
-data <- read.csv("2021_March2023_JLDP_Rainfall_data.csv")
-Oaks2<-read.csv("oaks2.csv")
-Oaks1<-read.csv("Oaks1_2021_12_05.csv",skip=11)
+# Load rainfall datasets from Ranchbot
 Tinta3<-read.csv("tinta3.csv")
 
 colnames(data)<-c("date","Jalama_HQ","Oaks","Sutter","Tinta","Army Camp","Bunker Hill","Cistern",
